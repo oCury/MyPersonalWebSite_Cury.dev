@@ -1,0 +1,42 @@
+.hero {
+    background-image: url('path-to-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.rounded-circle {
+    max-width: 100%;
+    height: auto;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar {
+    background-color: #333;
+}
+
+body.dark-mode .hero {
+    background-image: none;
+    background-color: #1a1a1a;
+}
+
+body.dark-mode .btn-light {
+    background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode .bg-light {
+    background-color: #333 !important;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+body.dark-mode .footer {
+    background-color: #333;
+    color: #ffffff;
+}
